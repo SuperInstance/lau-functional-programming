@@ -1,0 +1,13 @@
+[package]
+name = "lau-functional-programming"
+version = "0.1.0"
+edition = "2021"
+license = "MIT"
+repository = "https://github.com/SuperInstance/lau-functional-programming"
+description = "Functional programming theory and patterns in Rust: lambda calculus, combinatory logic, type theory, monads, functors, recursion schemes, and more"
+
+[dependencies]
+serde = { version = "1", features = ["derive"] }
+nalgebra = "0.33"
+
+[dev-dependencies]
